@@ -1,0 +1,153 @@
+.container-custom {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #40407a;
+}
+
+.color-custom {
+  color: #ffff;
+  font-size: 20px;
+}
+
+.size-custom {
+  color: #ffff;
+  font-size: 10px;
+}
+
+.container-custom:hover .overlay {
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.logo {
+  transition: 0.8s;
+}
+.logo:hover {
+  transform: rotate(-10deg);
+  transition: 0.8s;
+}
+
+.bg-custom {
+  background-color: #40407a;
+}
+
+.m-ex {
+  padding-top: 80px;
+}
+
+body {
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+h1 {
+  font-family: "Encode Sans Expanded", sans-serif;
+  color: #40407a;
+}
+
+.customsize {
+  font-size: 40px;
+}
+
+.customsizep {
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+.know {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.know i {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: 0.8s;
+}
+.know i:hover {
+  background-color: #40407a;
+  color: #fff;
+  border-radius: 25px;
+  transform: rotate(-10deg);
+}
+
+.icon-color {
+  color: #40407a;
+}
+
+.btn {
+  transition: 0.5s;
+}
+.btn:hover {
+  transition: 0.5s;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.custombtn {
+  background-color: #40407a !important;
+  border: #40407a !important;
+  color: #ffff;
+  .transition: 0.5s;
+}
+.custombtn:hover {
+  color: #fff;
+  transition: 0.5s;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.color-custom {
+  color: #40407a !important;
+}
+
+.newcolor {
+  color: #40407a !important;
+}
+
+span.typer {
+  color: #40407a !important;
+}
+
+.inputex, .formulario textarea {
+  color: #40407a !important;
+}
+
+.submit {
+  border: #40407a !important;
+  background-color: #fff;
+  color: #40407a !important;
+}
+
+/*# sourceMappingURL=main.css.map */
